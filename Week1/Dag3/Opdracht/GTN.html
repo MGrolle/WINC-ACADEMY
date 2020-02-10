@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Guess the Number</title>
+  </head>
+
+  <body>
+    <h1>Guess the Number</h1>
+    <script>
+      let name = prompt("Whats your name?");
+      alert(`Hello ${name}`);
+
+      var UserNumber = 10; // Prompt user and ask them to to guess a number between 1 & x(25)
+      var counter = 0;
+      var MaxTries = 5;
+
+      // Generate a Random number between 0 and 20
+
+      var RandomNumber = Math.floor(Math.random() * UserNumber) + 1;
+
+      // Prompt user and ask them to to guess a number between 1 & x(20)
+
+      while (Attempts != RandomNumber) {
+        var Attempts = prompt(
+          "Please pick a number between 1 and " + UserNumber
+        );
+        counter += 1;
+
+        if (counter > MaxTries) {
+          document.write(
+            "You have no more tries left. Press F5 to play again."
+          );
+          document.write("<p>The Random number was " + RandomNumber + "</p>");
+          break;
+        }
+
+        if (Attempts == RandomNumber) {
+          var Attempts = alert(
+            "Congratulations, you win! The random number was " +
+              RandomNumber +
+              "."
+          );
+        }
+      }
+    </script>
+  </body>
+</html>

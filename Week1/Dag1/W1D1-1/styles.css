@@ -1,0 +1,36 @@
+.body {
+}
+
+.container-1 {
+  border: 1px rgb(190, 190, 190) solid;
+  display: flex-start;
+  width: 25%;
+  margin: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-2 {
+  border: 1px rgb(190, 190, 190) solid;
+  display: flex-start;
+  float: right;
+  width: 25%;
+  margin: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.box-1 {
+}
+
+.box-2 {
+  float: baseline;
+  border-top: 1px grey;
+  justify-content: baseline;
+}
+
+.image1 {
+  float: right;
+}
+
+.image2 {
+  float: right;
+}
