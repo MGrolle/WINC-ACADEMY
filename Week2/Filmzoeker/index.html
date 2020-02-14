@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Filmzoeker</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <div class="header">
+      <h1>Filmzoeker</h1>
+      <nav>
+        <ul id="btn_filter">
+          <li>
+            <label
+              ><input
+                type="radio"
+                id="newest_films"
+                name="filter-button"
+                value="newest-films"
+              />
+              Nieuwste Films</label
+            >
+          </li>
+          <li>
+            <label
+              ><input
+                type="radio"
+                id="avengers_films"
+                name="filter-button"
+                value="avengers-films"
+              />
+              Avengers Films</label
+            >
+          </li>
+          <li>
+            <label
+              ><input
+                type="radio"
+                id="xmen_films"
+                name="filter-button"
+                value="xmen-films"
+              />
+              X-Men</label
+            >
+          </li>
+          <li>
+            <label
+              ><input
+                type="radio"
+                id="princess_films"
+                name="filter-button"
+                value="princess-films"
+              />
+              Princess Films</label
+            >
+          </li>
+          <li>
+            <label
+              ><input
+                type="radio"
+                id="batman_films"
+                name="filter-button"
+                value="batman-films"
+              />
+              Batman Films</label
+            >
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="container">
+      <ul id="movieList"></ul>
+    </div>
+
+    <script defer src="js/script.js"></script>
+    <script defer src="js/scripttest.js"></script>
+  </body>
+</html>
