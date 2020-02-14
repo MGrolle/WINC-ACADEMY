@@ -1,3 +1,4 @@
+/*
 function sum(a, b) {
   return a + b;
 }
@@ -21,3 +22,42 @@ document.addEventListener("click", function() {
 });
 
 document.addEventListener("click", () => console.log("Click"));
+*/
+
+
+
+// zet de functie om naar een arrow functie
+const ikRockArrowFunctions = function () {
+    console.log("Joe, ik rock de arrow functions!");
+  };
+  
+  ikRockArrowFunctions();
+
+const ikRockArrowFunctions = () => {
+    console.log("Joe, ik rock de arrow functions!");
+  }
+  
+  ikRockArrowFunctions();
+
+//B
+const fivePlusSeven = function () {
+    return 5 + 7
+  };
+  
+  fivePlusSeven();
+
+const fivePlusSeven = () => 5 + 7;
+
+  fivePlusSeven();
+
+//C
+() => 1 + 2 
+
+//D
+const myFunction = (a,b) => a + b 
+
+//E
+const addFive = a => a + 5
+
+//F
+const addFive = a => a + 5
